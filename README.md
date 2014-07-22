@@ -40,4 +40,4 @@ This is a ready to use repository for **SonataAdminBundle** configured in **symf
 To learn more about the sonataAdminBundle go through the online documentation of the [SonataAdminBundle](http://sonata-project.org/bundles/admin).
 
 Also the demo website that demonstarates the features of the bundle is available [here](http://demo.sonata-project.org/admin/dashboard)
-	(**admin** as *user* and **password** as *password*).
+	(**admin** as *user* and **admin** as *password*).
