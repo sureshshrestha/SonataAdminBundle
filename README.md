@@ -19,9 +19,9 @@ This is a ready to use repository for **SonataAdminBundle** configured in **symf
 
 5. Config the database parameter in *app/config/parameters.yml* as
 
-	database_name: (db_name)`
+	'database_name: (db_name)`
 
-	database_user: (db_username)`
+	'database_user: (db_username)`
     
 	`database_password: (db_password)`
 
