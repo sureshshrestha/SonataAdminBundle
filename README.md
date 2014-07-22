@@ -1,36 +1,43 @@
-SonataAdminBundle
-
-This is the boilerplate for https://github.com/sonata-project/SonataAdminBundle. The code has been configured and tested.
+This is a ready to use repository for **SonataAdminBundle** configured in **symfony2.5.1**. This is intended for the Symfony developers who want to run into SonataAdminBundle without any burden in configuring. For more details on installation details please go through the official documentation of [SonataAdminBundle](https://github.com/sonata-project/SonataAdminBundle).
 
 1. Clone the repo:
-    git clone https://github.com/sur3s/SonataAdminBundle
 
-2. Install composer following instructions from http://getcomposer.org/. Then run "php composer.phar install" to install them. (It will download all the vendor files so it might take a while to complete.)
+	it clone https://github.com/sur3s/SonataAdminBundle`
 
-3. Go to the 'Setting up Permissions' section of the official symfony setup page i.e. http://symfony.com/doc/current/book/installation.html and choose the suitable method to change the permission of app/cache and app/logs.
+2. Install composer following instructions from [here](http://getcomposer.org/). Then run composer install:
+	
+	php composer.phar install'
 
-4. Make a copy of parameters.yml.dist and rename it to paramters.yml.
+	It will download all the vendor files so it might take a while to complete.)
 
-5. Config the database parameter in app/config/parameters.yml as
+3. Go to the '*Setting up Permissions*' section of the [official symfony setup page] (http://symfony.com/doc/current/book/installation.html)
 
-    database_name: (db_name)
 
-    database_user: (db_username)
+	Choose the suitable method to change the permission of *app/cache* and *app/logs*.
+
+4. Make a copy of *parameters.yml.dist* and rename it to *paramters.yml*.
+
+5. Config the database parameter in *app/config/parameters.yml* as
+
+	database_name: (db_name)`
+
+	database_user: (db_username)`
     
-    database_password: (db_password)
+	`database_password: (db_password)`
 
-6. Go to the url: http://localhost/project_name/web/app_dev.php/admin/admin/dashboard
+6. Go to the url: 
+	
+	*http://localhost/project_name/web/app_dev.php/admin/admin/dashboard*
 
-  (change the above url as per need)
+	(change the above url as per need)
 
 7. You get the CRUD panel ready to use. But before you start inserting into the database you should create database by console as:
 
-	app/console doctrine:database:create
+	`pp/console doctrine:database:create`
 
-	app/console doctrine:schema:create
+	`pp/console doctrine:schema:create`
 
-To learn more about the sonataAdminBundle go through the online documentation of the bundle 
-	http://sonata-project.org/bundles/admin.
+To learn more about the sonataAdminBundle go through the online documentation of the [SonataAdminBundle](http://sonata-project.org/bundles/admin).
 
-Also the demo website is available at http://demo.sonata-project.org/admin/dashboard 
-	(admin as user and password).
+Also the demo website that demonstarates the features of the bundle is available [here](http://demo.sonata-project.org/admin/dashboard)
+	(**admin** as *user* and **password** as *password*).
