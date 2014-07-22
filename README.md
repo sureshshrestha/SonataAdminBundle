@@ -1,4 +1,4 @@
-This is a ready to use repository for **SonataAdminBundle** configured in **symfony2.5.1**. This is intended for the Symfony developers who want to run into SonataAdminBundle without any burden in configuring. For more details on installation details please go through the official documentation of [SonataAdminBundle](https://github.com/sonata-project/SonataAdminBundle).
+This is a ready to use repository for **SonataAdminBundle** configured in **symfony2.5.1**. This is intended for the Symfony developers who want to run into SonataAdminBundle without any burden in configuring. If you are looking for installtion of the bundle yourself go through the official documentation of [SonataAdminBundle](https://github.com/sonata-project/SonataAdminBundle).
 
 1. Clone the repo:
 
